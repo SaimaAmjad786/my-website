@@ -208,15 +208,15 @@ function Project() {
            />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-cyan-400 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
-              Typescript project
+              Nextjs and Taiwlvand CSS project
             </h2>
             <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
-             Project
+             Flower Website
             </h1>
             <p className="leading-relaxed">
               This is the project which I have created for those who owns a typescript projects
             </p>
-            <Link target='blank' href={"https://github.com/SaimaAmjad786/Colourful-Todo-Application.git"}>
+            <Link target='blank' href={"https://github.com/SaimaAmjad786/flower-websites"}>
             <p className="leading-relaxed text-blue-600 font-bold hover:underline">View my all Projects</p>
             </Link>
           </div>
