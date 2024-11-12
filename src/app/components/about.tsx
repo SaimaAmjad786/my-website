@@ -7,11 +7,11 @@ import Link from 'next/link'
 const About = () => {
     return (
         <div id='About'>
-            <section className="text-gray-900 body-font  ">
+            <section className="text-gray-900 body-font mt-[50px] ">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
                         <img src='./girl.jpg'
-                            className="object-cover object-center rounded-lg mx-auto  border-2  border-cyan-400 border-x-purple-400"
+                            className="object-cover object-center rounded-lg mx-auto  boxes border-2  border-cyan-400 border-y-purple-600"
                             alt="hero"                            
                             width={500}
                             height={200}
@@ -23,10 +23,10 @@ const About = () => {
                             <br className="hidden lg:inline-block" />
                         </h1>
                         
-                        <p  className=" mr-5 leading-relaxed text-lg  font-bold text-justify text-white">
-                            My name is saima Amjad. I have completed my Intermediate. I am a student of Governor Sindh IT Initiative. I am Dedicated to advancing myskills
+                        <p  className=" mr-5 leading-relaxed text-medium  font-bold text-justify text-white">
+                            My name is saima Amjad. I have completed my Intermediate.I am a student of Governor Sindh IT Initiative. I am Dedicated to advancing myskills
                             in Webdevelopment my Technical Expertise spans Html ,Css ,Typescript with a focus on Nextjs and TaiwlvandCss . Currently I am Working
-                            on Personal Project including nextjs or taiwlvandcss . I am explore my journey and see how I am contributing to the digital landscape through a blend of technical expertise and creative vision
+                            on Personal Project including nextjs or taiwlvandcss. I am explore my journey and see how I am contributing to the digital landscape through a blend of technical expertise and creative vision
                         </p>
                         <div className="flex justify-center">
                             

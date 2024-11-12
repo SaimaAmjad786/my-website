@@ -68,7 +68,7 @@ function Project() {
           </div>
         </div>
       </div>
-    
+
        {/* Project 3*/}
        <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative cursor-pointer ">

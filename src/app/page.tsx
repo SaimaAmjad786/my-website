@@ -7,6 +7,7 @@ import Skills from "./components/skills"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import Services from "./components/services";
 
 export default function Home(){
   useEffect(()=>{
@@ -26,6 +27,7 @@ export default function Home(){
     <About/> 
     <Skills/>
     <Project/> 
+    <Services/>
     <Contact/>
 
    </div>
