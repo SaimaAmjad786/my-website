@@ -21,7 +21,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="inline-flex p-3 ml-auto text-cyan-500 rounded-md mr-4 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-cyan-500 md:hidden"
+            className="inline-flex p-3 ml-auto text-cyan-500 rounded-md mr-9 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-cyan-500 md:hidden"
             onClick={toggleMobileMenu}
           >
             <svg
@@ -45,12 +45,12 @@ const Navbar = () => {
             className={`${isMobileMenuOpen ? 'block' : 'hidden'
               } md:flex md:ml-auto md:mr-auto flex-wrap items-center text-base justify-center`}
           >
-            <Link href="#Home" className="mr-3 text-lg hover:text-white font-bold">Home</Link>
-            <Link href="#About" className="mr-3 text-lg hover:text-white font-bold">About</Link>
-            <Link href="#Skills" className="mr-3 text-lg hover:text-white  font-bold">Skills</Link>
-            <Link href="#service" className="mr-3 text-lg hover:text-white font-bold">Service</Link>
-            <Link href="#Project" className="mr-3 text-lg hover:text-white font-bold">Projects</Link>
-            <Link href="#Contact" className="mr-3 text-lg hover:text-white font-bold">Contact</Link>
+            <Link href="#Home" className="mr-2 text-lg hover:text-white font-bold">Home</Link>
+            <Link href="#About" className="mr-2 text-lg hover:text-white font-bold">About</Link>
+            <Link href="#Skills" className="mr-2 text-lg hover:text-white  font-bold">Skills</Link>
+            <Link href="#service" className="mr-2 text-lg hover:text-white font-bold">Service</Link>
+            <Link href="#Project" className="mr-2 text-lg hover:text-white font-bold">Projects</Link>
+            <Link href="#Contact" className="mr-2 text-lg hover:text-white font-bold">Contact</Link>
           </nav>
         </div>
       </header>
