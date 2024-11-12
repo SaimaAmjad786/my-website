@@ -6,7 +6,7 @@ import Link from "next/link"
 const Hero = () => {
     return (
         <div>
-            <section className="text-gray-900 body-font font-serif  rounded-xl ">
+            <section className="text-gray-900 body-font font-serif  rounded-xl mt-[50px] ">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 text-cyan-400 hover:text-black font-serif font-extrabold">
